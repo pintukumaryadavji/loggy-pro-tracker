@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pro Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Loggy Pro Tracker</h1>
+        <p>Goal:2/hr before one nov</p>
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Work done</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>26 october</td>
+                <td>HTML/CSS Dashboard</td>
+                <td> Hours</td>
+            </tr>
+        </table>
+
+        <button id ="btn">Mark day 1 done</button>
+        <p id="msg"></p>
+    </div>
+    <script>
+        document.getElementById('btn').onclick=function(){
+            document.getElementById('msg').innerText='Day 1 Completed';
+        }
+    </script>
+</body>
+</html>

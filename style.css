@@ -1,0 +1,31 @@
+body {
+    background: #111;
+    color:white;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card {
+    background: #1e1e1e;
+    padding:30px;
+    border-radius: 15px;
+    width: 400px;
+}
+table{
+    width:100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px,solid #444;
+    padding:10px;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    background: #00ff88;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
